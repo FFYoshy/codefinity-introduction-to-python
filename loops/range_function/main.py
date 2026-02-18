@@ -4,8 +4,8 @@ daily_promotions = ["Milk", "Eggs", "Bread", "Apples", "Oranges"]
 # List of weekdays corresponding to the promotions
 weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 
-for day in range(7):
-    task = weekly_tasks[day]  # Access the task corresponding to the current day
+for day in range(5):
+    task = daily_promotions[day]  # Access the task corresponding to the current day
     weekday = weekdays[day]   # Access the corresponding weekday
-    print(f"{weekday} Task: {task}")
+    print(f"{weekday}: promotion on {task}")
 
